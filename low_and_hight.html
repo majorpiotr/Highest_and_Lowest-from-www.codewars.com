@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+function highAndLow(numbers){
+  // ...
+numbers_array=numbers.split(" "); // we write numbers to array
+var  max = Math.max.apply(null, numbers_array); // find gratest number by Math.max
+var  min = Math.min.apply(null, numbers_array); // find lowest number by Math.min
+var out = max + " " + min ; // we write numbers to "out" 
+return (out); // and return "out"
+}
+alert(highAndLow("4 5 29 54 4 0 -214 542 -64 1 -3 6 -6"));
+</script>
+
+</body>
+</html>
